@@ -127,4 +127,4 @@ h1.title {
 
 
 }
-h1.title > span{ display: flex}
+h1.title > span{ display: block}
