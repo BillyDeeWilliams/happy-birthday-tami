@@ -77,6 +77,14 @@ html,body {
   margin: 0;
 }
 
+h1.title{
+    position: absolute;
+    font-size: 76px;
+    font-family: verela;
+    text-align: center;
+    width: 100%;
+}
+
 section.flip{
     position: absolute;
     bottom: -12px;
