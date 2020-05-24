@@ -68,3 +68,8 @@ ul li.flip-card{
   color: white;
   transform: rotateY(180deg);
 }
+
+html,body {
+  height: 100%;
+  margin: 0;
+}
