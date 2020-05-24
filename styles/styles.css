@@ -96,6 +96,7 @@ section.flip{
 
 }
 
+h1.title > span{ display: none}
 
 @media(max-width: 768px){
 
