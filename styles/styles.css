@@ -10,13 +10,14 @@ ul li.flip-card{
     text-align: center;
     justify-content: center;
     flex-direction: column;
-    width: 200px;
-    height: 200px;
+    width: 174px;
+    height: 173px;
     background: black;
     color: white;
     font-size: 50px;
     font-family: sans-serif;
     font-weight: 600;
+    border-radius: 45px;
     transition: 2s;
 }.flip-card {
   background-color: transparent;
@@ -52,11 +53,12 @@ ul li.flip-card{
 
 /* Style the front side (fallback if image is missing) */
 .flip-card-front {
-  background-color: #bbb;
-  color: black;
-    display: flex;
-  justify-content: center;
-  flex-direction: column;
+    background-color: #bbb;
+        color: black;
+        display: flex;
+        justify-content: center;
+        border-radius: 45px;
+        flex-direction: column;
 }
 
 /* Style the back side */
@@ -66,10 +68,20 @@ ul li.flip-card{
   flex-direction: column;
   background-color: dodgerblue;
   color: white;
+          border-radius: 45px;
   transform: rotateY(180deg);
 }
 
 html,body {
   height: 100%;
   margin: 0;
+}
+
+seaction.flip{
+    position: absolute;
+    bottom: -12px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
 }
