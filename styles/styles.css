@@ -127,6 +127,7 @@ h1.title {
 
 
 
-h1.title > span{ display: block}
+h1.title > span{ display: block;
+padding-top:100px;}
 section.dt{display: none;}
 }
