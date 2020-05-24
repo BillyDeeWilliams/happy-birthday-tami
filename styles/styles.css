@@ -77,7 +77,7 @@ html,body {
   margin: 0;
 }
 
-seaction.flip{
+section.flip{
     position: absolute;
     bottom: -12px;
     width: 100%;
