@@ -1,3 +1,31 @@
+@media(max-width: 768px){
+
+    ul li.flip-card {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 60px;
+        height: 60px;
+    }
+    ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    width: 100%;
+    padding: 0;
+    justify-content: center;
+}
+h1.title {
+    position: absolute;
+    font-size: 20px;
+    font-family: verela;
+    text-align: center;
+    width: 100%;}
+
+}
+
 
 
 ul{
